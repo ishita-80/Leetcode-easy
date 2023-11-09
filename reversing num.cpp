@@ -11,7 +11,7 @@ int main(){
             break;
         }
        int digit = n % 10;
-        ans=(ans*10)+digit;
+        ans = (ans*10) + digit;
         n=n/10;
        
 
