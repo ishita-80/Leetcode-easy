@@ -35,5 +35,4 @@ int arr[8]={1,1,0,0,0,0,1,0};
 sortOne(arr,8);
 printArray(arr,8);
 }
-//agr yaha pohunch gye ho to , iska mtbl h ki
-//arr[i]==1 and arr[j]==0
+
