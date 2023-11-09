@@ -12,8 +12,9 @@ int main(){
         }
        int digit = n % 10;
         ans = (ans*10) + digit;
-        n = n/10;
+        n /= 10;
        
 
-    } cout << ans;
+    }
+    cout << ans;
 }
