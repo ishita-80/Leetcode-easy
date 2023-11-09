@@ -9,7 +9,7 @@ int main(){
         if(ans == n){
             cout<<"true";
         }
-        if(ans<INT32_MAX/2||ans>INT32_MIN/2){
+        if(ans < INT32_MAX/2 || ans > INT32_MIN/2){
             ans=ans*2;
         }
     }
