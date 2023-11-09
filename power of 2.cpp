@@ -5,7 +5,7 @@ int main(){
     int n;
     cin>>n;
     int ans=1;
-    for(int i=0;i<=30;i++){
+    for(int i=0 ;i <= 30; i++){
         if(ans==n){
             cout<<"true";
         }
