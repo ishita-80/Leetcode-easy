@@ -10,7 +10,7 @@ int main(){
             ans = 0;
             break;
         }
-       int digit=n%10;
+       int digit = n%10;
         ans=(ans*10)+digit;
         n=n/10;
        
