@@ -4,17 +4,17 @@ public:
         int sum;
         int a = 0;
         int b = 1;
-        if(n==0){
+        if(n == 0){
             return a;
 
         }
-        if (n==1){
+        if (n == 1){
             return b;
         }
         
         
-        for (int i = 1 ; i< n ; i++){
-            sum=a+b;
+        for (int i = 1 ; i < n ; i++){
+            sum = a+b;
             a=b;
             b=sum;
         } 
