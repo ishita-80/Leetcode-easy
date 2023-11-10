@@ -5,11 +5,11 @@ int binarySearch(int arr[],int size,int key){
     int end = size - 1;
     int mid = (start+end)/2;
     while(start <= end){
-        if(arr[mid]==key){
+        if(arr[mid] == key){
             return mid;
         }
-        if(key>arr[mid]){
-            start=mid+1;
+        if(key > arr[mid]){
+            start = mid+1;
 
         }
         else{
