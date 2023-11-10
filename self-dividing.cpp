@@ -4,7 +4,8 @@ public:
     vector<int>ans;
     for(int num= left;num<=right;num++){
         if(num%10==0){
-        continue;}
+        continue;
+        }
         int temp=num;
         int flag=1;
 
