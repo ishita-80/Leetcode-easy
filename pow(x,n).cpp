@@ -18,7 +18,7 @@ public:
          }
      }
      if(n<0){
-         ans=double(1.0)/double(ans);
+         ans = double(1.0)/double(ans);
          return ans;
      }
      else{
