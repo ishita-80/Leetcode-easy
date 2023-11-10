@@ -5,7 +5,7 @@ public:
      
         while(n>9){
             long long sq_digi = 0;
-            int digit=0;
+            int digit = 0;
             while(n>=1){
 
                 digit=n%10;
